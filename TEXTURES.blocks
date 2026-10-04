@@ -1,0 +1,447 @@
+// Block-world textures (Minecraft-style, Minetest Game CC BY-SA 3.0 + others, see gen/tex/CREDITS_textures.md)
+// Each PNG is 64x64 (16x16 source pixels upscaled 4x nearest, or 32x32 upscaled 2x).
+// XScale/YScale 2.0 -> one texture = 32x32 map units = one block (the 56-unit player is 1.75 blocks tall).
+// WorldPanning: sidedef/flat offsets stay in map units, so Doom's 8/16/32/64 alignments still line up.
+// The doors (64x128 PNG) are 32x64 map units: a two-block Minecraft door.
+
+Texture "MCGRASS", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/b_grass.png", 0, 0
+}
+Texture "MCDIRT", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/b_dirt.png", 0, 0
+}
+Texture "MCSTONE", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/b_stone.png", 0, 0
+}
+Texture "MCCOBBL", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/b_cobbl.png", 0, 0
+}
+Texture "MCMOSSY", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/b_mossy.png", 0, 0
+}
+Texture "MCSTBRK", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/b_stbrk.png", 0, 0
+}
+Texture "MCBRICK", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/b_brick.png", 0, 0
+}
+Texture "MCPLANK", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/b_plank.png", 0, 0
+}
+Texture "MCPLANK2", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/b_plank2.png", 0, 0
+}
+Texture "MCLOG", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/b_log.png", 0, 0
+}
+Texture "MCLOGTOP", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/b_logtop.png", 0, 0
+}
+Texture "MCSAND", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/b_sand.png", 0, 0
+}
+Texture "MCSANDST", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/b_sandst.png", 0, 0
+}
+Texture "MCGRAVEL", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/b_gravel.png", 0, 0
+}
+Texture "MCOBSID", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/b_obsid.png", 0, 0
+}
+Texture "MCGLOW", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/b_glow.png", 0, 0
+}
+Texture "MCIRON", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/b_iron.png", 0, 0
+}
+Texture "MCGOLD", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/b_gold.png", 0, 0
+}
+Texture "MCDIAM", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/b_diam.png", 0, 0
+}
+Texture "MCBOOK", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/b_book.png", 0, 0
+}
+Texture "MCCLAY", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/b_clay.png", 0, 0
+}
+Texture "MCICE", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/b_ice.png", 0, 0
+}
+Texture "MCSNOW", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/b_snow.png", 0, 0
+}
+Texture "MCWOOL", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/b_wool.png", 0, 0
+}
+Texture "MCTNT", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/b_tnt.png", 0, 0
+}
+Texture "MCGRSSD", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/b_grssd.png", 0, 0
+}
+Texture "MCLEAF", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/b_leaf.png", 0, 0
+}
+Texture "MCGLASS", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/b_glass.png", 0, 0
+}
+Texture "MCORE1", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/b_ore1.png", 0, 0
+}
+Texture "MCORE2", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/b_ore2.png", 0, 0
+}
+Texture "MCORE3", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/b_ore3.png", 0, 0
+}
+Texture "MCNETHR", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/b_nethr.png", 0, 0
+}
+Texture "MCLAMP1", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/b_lamp1.png", 0, 0
+}
+Texture "MCLAMP0", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/b_lamp0.png", 0, 0
+}
+Texture "MCDOOR", 64, 128
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/b_door.png", 0, 0
+}
+Texture "MCDOORI", 64, 128
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/b_doori.png", 0, 0
+}
+Texture "MCWATR1", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/b_watr1.png", 0, 0
+}
+Texture "MCWATR2", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/b_watr2.png", 0, 0
+}
+Texture "MCWATR3", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/b_watr3.png", 0, 0
+}
+Texture "MCWATR4", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/b_watr4.png", 0, 0
+}
+Texture "MCWATR5", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/b_watr5.png", 0, 0
+}
+Texture "MCWATR6", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/b_watr6.png", 0, 0
+}
+Texture "MCWATR7", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/b_watr7.png", 0, 0
+}
+Texture "MCWATR8", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/b_watr8.png", 0, 0
+}
+Texture "MCLAVA1", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/b_lava1.png", 0, 0
+}
+Texture "MCLAVA2", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/b_lava2.png", 0, 0
+}
+Texture "MCLAVA3", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/b_lava3.png", 0, 0
+}
+Texture "MCLAVA4", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/b_lava4.png", 0, 0
+}
+Texture "MCLAVA5", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/b_lava5.png", 0, 0
+}
+Texture "MCLAVA6", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/b_lava6.png", 0, 0
+}
+Texture "MCLAVA7", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/b_lava7.png", 0, 0
+}
+Texture "MCLAVA8", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/b_lava8.png", 0, 0
+}
+Texture "MCSLIM1", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/b_slim1.png", 0, 0
+}
+Texture "MCSLIM2", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/b_slim2.png", 0, 0
+}
+Texture "MCSLIM3", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/b_slim3.png", 0, 0
+}
+Texture "MCSLIM4", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/b_slim4.png", 0, 0
+}
+Texture "QKMETAL", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/q_metal.png", 0, 0
+}
+Texture "QKRUNE", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/q_rune.png", 0, 0
+}
+Texture "QKGATE1", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/q_gate1.png", 0, 0
+}
+Texture "QKGATE2", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/q_gate2.png", 0, 0
+}
+Texture "QKGATE3", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/q_gate3.png", 0, 0
+}
+Texture "QKGATE4", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	WorldPanning
+	Patch "textures/blocks/q_gate4.png", 0, 0
+}
+
+// Sky: 1024 px wide = exactly one wrap around the 360 degree horizon in GZDoom (narrower skies repeat).
+// 256 px tall, no scaling: GZDoom shows tall skies unstretched; the bottom fades into a pale haze.
+Texture "SKYMC", 1024, 256
+{
+	Patch "textures/blocks/s_skymc.png", 0, 0
+}

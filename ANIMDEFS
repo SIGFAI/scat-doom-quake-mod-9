@@ -1,0 +1,37 @@
+// Animated block textures and the lamp switch (block-world textures).
+
+texture MCWATR1
+	pic MCWATR1 tics 6
+	pic MCWATR2 tics 6
+	pic MCWATR3 tics 6
+	pic MCWATR4 tics 6
+	pic MCWATR5 tics 6
+	pic MCWATR6 tics 6
+	pic MCWATR7 tics 6
+	pic MCWATR8 tics 6
+
+texture MCLAVA1
+	pic MCLAVA1 tics 8
+	pic MCLAVA2 tics 8
+	pic MCLAVA3 tics 8
+	pic MCLAVA4 tics 8
+	pic MCLAVA5 tics 8
+	pic MCLAVA6 tics 8
+	pic MCLAVA7 tics 8
+	pic MCLAVA8 tics 8
+
+texture MCSLIM1
+	pic MCSLIM1 tics 8
+	pic MCSLIM2 tics 8
+	pic MCSLIM3 tics 8
+	pic MCSLIM4 tics 8
+
+texture QKGATE1
+	pic QKGATE1 tics 6
+	pic QKGATE2 tics 6
+	pic QKGATE3 tics 6
+	pic QKGATE4 tics 6
+
+// Wall switches (SW1* -> MCLAMP0, SW2* -> MCLAMP1 in BLOCKMAP.txt): using the lamp lights it, and a
+// repeatable switch turns it back off (the engine pairs on/off from this one definition).
+switch MCLAMP0 on pic MCLAMP1 tics 0

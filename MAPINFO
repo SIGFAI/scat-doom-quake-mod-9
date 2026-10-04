@@ -1,0 +1,5 @@
+GameInfo
+{
+	AddEventHandlers = "BlockWorld", "CatQuest", "MCDirector"
+	StatusBarClass = "BlockHUD"
+}

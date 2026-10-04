@@ -1,0 +1,47 @@
+// Block world
+mc/tntfuse      sounds/tnt_fuse.ogg
+mc/boom         sounds/tnt_boom.ogg
+mc/dig1         sounds/dig1.ogg
+mc/dig2         sounds/dig2.ogg
+$random mc/dig  { mc/dig1 mc/dig2 }
+mc/break        sounds/blockbrk.ogg
+mc/xp           sounds/xporb.ogg
+mc/levelup      sounds/levelup.ogg
+mc/pickup       sounds/pickup.ogg
+mc/hurt         sounds/hurt.ogg
+mc/swing        sounds/swing.ogg
+
+// Quake side
+mc/nailgun      sounds/nailgun.ogg
+mc/nailhit      sounds/nailhit.ogg
+mc/teleport     sounds/teleport.ogg
+mc/laser        sounds/laser.ogg
+mc/quad         sounds/quadvoice.ogg
+
+// Mobs
+mob/zombie      sounds/zgroan.ogg
+$alias mob/zombiedie mob/zombie
+$pitchset mob/zombiedie 0.8
+mob/robot       sounds/skel.ogg
+mob/robotdie    sounds/skel.ogg
+$pitchset mob/robotdie 0.75
+mob/ogre        sounds/ogre.ogg
+mob/ogredie     sounds/ogre.ogg
+$pitchset mob/ogredie 0.8
+mob/fiend       sounds/fiend.ogg
+mob/fienddie    sounds/fiend.ogg
+$pitchset mob/fienddie 0.85
+mob/crphiss     sounds/crphiss.ogg
+mob/chainsaw    sounds/chainsaw.ogg
+mob/ghast       sounds/ghast.ogg
+
+// The Cat and its kittens
+cat/meow1       sounds/meow1.ogg
+cat/meow2       sounds/meow2.ogg
+$random cat/sight { cat/meow1 cat/meow2 }
+cat/hiss        sounds/hiss.ogg
+cat/die         sounds/catdie.ogg
+kitten/meow     sounds/meow1.ogg
+$pitchset kitten/meow 1.5
+kitten/die      sounds/meow2.ogg
+$pitchset kitten/die 1.4

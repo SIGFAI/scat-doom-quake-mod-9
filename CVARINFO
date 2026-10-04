@@ -1,0 +1,4 @@
+// The stream demo (demo.cfg sets mc_demo 1): the director runs its timeline on the map's clock.
+server noarchive int mc_demo = 0;
+// Test runs: ask the stream pilot for a full-size screenshot every N tics (0 = never).
+server noarchive int mc_shots = 0;
