@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "name": "SCAT, mod 9: Doom × Quake",
   "tagline": "Turn every game into Minecraft. This time, mix in Quake with a funny twist of your own.",
+  "how_to_play": [
+    "Doom is now made of blocks: kill 8 mobs to lure out the SuperIntelligent Cat, then take all 9 of its lives.",
+    "You start with the Diamond Pickaxe and the Nailgun; find the Super Nailgun, the TNT Launcher and Quad Damage cubes.",
+    "Shoot TNT blocks to set off chain explosions; the quest line on the HUD tracks your progress.",
+    "Start a new game in any level; the cat warps in through a slipgate once it notices you."
+  ],
   "kind": "mashup",
   "games": [
     {
