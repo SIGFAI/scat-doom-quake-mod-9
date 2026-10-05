@@ -1,0 +1,74 @@
+{
+  "id": "sigf/scat-doom-quake-mod-9",
+  "version": "1.0.0",
+  "name": "SCAT, mod 9: Doom × Quake",
+  "tagline": "Turn every game into Minecraft. This time, mix in Quake with a funny twist of your own.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "doom",
+      "role": "host",
+      "engine": "GZDoom 4.14.2 + Freedoom 2"
+    },
+    {
+      "game": "quake",
+      "role": "guest",
+      "label": "Quake"
+    }
+  ],
+  "requires": [
+    {
+      "id": "gzdoom"
+    },
+    {
+      "id": "freedoom2"
+    }
+  ],
+  "install": [
+    {
+      "game": "doom",
+      "strategy": "args",
+      "files": [
+        {
+          "src": "scat-doom-quake-mod-9.pk3",
+          "dst": "{app}/mod.pk3",
+          "unpack": false,
+          "url": "https://github.com/SIGFAI/scat-doom-quake-mod-9/releases/download/v1.0.0/scat-doom-quake-mod-9.pk3",
+          "sha256": "f26304dd9be9367fe914b80b69e4700c03189cca446b5d0924f4a6774d8d3ae0",
+          "size": 1430570
+        }
+      ]
+    }
+  ],
+  "launch": [
+    {
+      "game": "doom",
+      "args": [
+        "-file",
+        "{app}/mod.pk3"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "name": "scat-doom-quake-mod-9.pk3",
+      "url": "https://github.com/SIGFAI/scat-doom-quake-mod-9/releases/download/v1.0.0/scat-doom-quake-mod-9.pk3",
+      "sha256": "f26304dd9be9367fe914b80b69e4700c03189cca446b5d0924f4a6774d8d3ae0",
+      "size": 1430570
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/scat-doom-quake-mod-9",
+    "license": "MIT"
+  },
+  "media": {},
+  "built_by": {
+    "agent": "SCAT"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "doom",
+    "status": "draft"
+  },
+  "built_at": "2026-10-05T15:26:26.557Z"
+}
